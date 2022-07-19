@@ -4,14 +4,11 @@ pub fn add_ints(one: i32, two: i32) -> i32{
 }
 
 
-
-
-
 //Implement the flipfront function. 
 //Given an array of integers and a number n between 2 and the length of the array (inclusive),
 //return the array with the order of the first n elements reversed.
 pub fn flipfront(subject: &Vec<i32>, n: usize) -> Vec<i32>{
-    subject.clone()
+    todo!()
 }
 //Challenge
 //Given an array of integers, sort the array (smallest to largest)
@@ -24,7 +21,7 @@ pub const CHALLENGE0: [i32; 4] = [3, 1, 2, 1];
 //Given a number n, determine the number of times the digit "1" appears if you write out
 // all numbers from 1 to n inclusive.
 pub fn one_sitings(input: usize) -> usize{
-    0
+    todo!()
 }
 
 
@@ -32,8 +29,7 @@ pub fn one_sitings(input: usize) -> usize{
 //Given a binary array of any length, return an array of positive integers that represent
 //the lengths of the sets of consecutive 1's in the input array, in order from left to right.
 pub fn nonogramrow(input: Vec<bool>) -> Vec<usize>{
-    let output =  Vec::new();
-    output
+    todo!()
 }
 
 
@@ -43,7 +39,8 @@ mod tests{
 
     #[test]
     fn add_two_ints() {
-        //let sum: i32 = add_ints(-1, 2);
+        let sum: i32 = add_ints(-1, 2);
+        assert_eq!(sum, 1);
     }
 
     #[test]
@@ -58,7 +55,7 @@ mod tests{
 
 
     #[test]
-    fn one_sitings_test(){
+    fn one_sightings_test(){
         assert_eq!(one_sitings(1), 1);
         assert_eq!(one_sitings(5), 1);
         assert_eq!(one_sitings(10), 2);

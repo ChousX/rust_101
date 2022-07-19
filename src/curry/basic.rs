@@ -19,7 +19,7 @@ pub fn flipfront(subject: &Vec<i32>, n: usize) -> Vec<i32>{
 pub const CHALLENGE0: [i32; 4] = [3, 1, 2, 1];
 //let vec = CHALLENGE0.to_vec();
 
-0
+
 
 //Given a number n, determine the number of times the digit "1" appears if you write out
 // all numbers from 1 to n inclusive.
